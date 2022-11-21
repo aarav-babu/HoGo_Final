@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('./bg.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.entrance {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  align-items: center;
+  width: 120%;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: pink;
+  color: white;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

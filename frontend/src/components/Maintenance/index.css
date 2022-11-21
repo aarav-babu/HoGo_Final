@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #010508;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.my-navbar {
+  background-color: #ffffff;
+}
+
+.brand {
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: #010508;
+}
+
+.brand:hover {
+  color: #010508;
+}
+
+.offcanvas-title,
+.offcanvas-body {
+  font-size: 1.3rem;
+}
+
+.m-card {
+  /* background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(181, 178, 178, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
+  border-radius: 10px;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+
+  /* margin-top: 2rem; */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.abt-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  /* justify-content: center; */
+}
+
+.abt-box > h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: bold;
+  color: #f7f9fa;
+}
+
+.abt-desc {
+  color: #f7f9fa;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mp-btn,
+.mm-btn {
+  background-color: rgba(255, 255, 255, 0);
+  color: #f7f9fa;
+  border: 2px solid #f7f9fa;
+  border-radius: 20px;
+  transition: 0.1s;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.mp-btn:hover {
+  /* background-color: #010508;
+  color: #f7f9fa;
+  border: 1px solid #010508; */
+  background-color: #f7f9fa;
+  color: rgb(95, 26, 94);
+  border: 2px solid #f7f9fa;
+  transition: 0.1s;
+}
+
+.mm-btn:hover {
+  background-color: #f7f9fa;
+  color: rgb(71, 23, 123);
+  border: 2px solid #f7f9fa;
+  transition: 0.1s;
+}
+
+.set-pay {
+  border: 2px solid #f7f9fa;
+  border-radius: 20px;
+  padding-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.set-pay > h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f7f9fa;
+}
