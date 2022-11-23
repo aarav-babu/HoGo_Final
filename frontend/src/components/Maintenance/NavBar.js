@@ -20,7 +20,7 @@ function NavBar() {
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto justify-content-end flex-grow-1 pe-3 offcanvas-body">
+              <Nav className="me-auto justify-content-end flex-grow-1 pe-3 offcanvas-body" style={{color:'white'}}>
                 <Link
                   to="/home-owner-entry"
                   style={{ paddingRight: '2rem', marginTop: '0.1rem' }}

@@ -15,18 +15,18 @@ code {
 }
 
 .my-navbar {
-  background-color: #ffffff;
+  background-color:#010508 ;
 }
 
 .brand {
   font-size: 2rem;
   padding-left: 0.5rem;
   font-weight: 600;
-  color: #010508;
+  color: white;
 }
 
 .brand:hover {
-  color: #010508;
+  color: white;
 }
 
 .offcanvas-title,

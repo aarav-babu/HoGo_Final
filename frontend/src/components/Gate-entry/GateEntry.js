@@ -192,14 +192,22 @@ function Gateentry() {
                 value={vals.purpose}
                 autoComplete="off"
               />
-              <input
+              {/* <input
                 type="text"
                 name="houseno"
                 placeholder="Enter Your Houseno"
                 onChange={inputEvent}
                 value={vals.houseno}
                 autoComplete="off"
-              />
+              /> */}
+               <select placeholder='Please enter your House no' name="houseno" onChange={inputEvent}>
+               <option value="44A">44A</option> 
+               <option value="44B">44B</option> 
+               <option value="34A">34A</option> 
+               <option value="34B">34B</option> 
+               <option value="24A">24A</option> 
+               <option value="24B">24B</option> 
+              </select>
             </Stack>
             <Button
               variant="primary"

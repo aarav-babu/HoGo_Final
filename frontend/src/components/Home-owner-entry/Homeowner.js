@@ -214,14 +214,22 @@ function Homeowner() {
           {/* <NavBar /> */}
           <Col>
             <Stack gap={3}>
-              <input
+              {/* <input
                 type="text"
                 name="apno"
                 placeholder="Please enter your apartment no"
                 onChange={inputEvent}
                 value={vals.apno}
                 autoComplete="Off"
-              />
+              /> */}
+              <select placeholder='Please enter your apartment no' name="apno" onChange={inputEvent}>
+               <option value="44A">44A</option> 
+               <option value="44B">44B</option> 
+               <option value="34A">34A</option> 
+               <option value="34B">34B</option> 
+               <option value="24A">24A</option> 
+               <option value="24B">24B</option> 
+              </select>
               <input
                 type="text"
                 name="name"
